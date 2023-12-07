@@ -1,7 +1,7 @@
 import { nanoid } from '@reduxjs/toolkit';
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { addContact } from 'redux/actions';
+import { addContact } from '../../redux/actions';
 
 export const ContactForm = () => {
   const [number, setNumber] = useState('');

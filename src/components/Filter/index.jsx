@@ -2,7 +2,8 @@ import { nanoid } from '@reduxjs/toolkit';
 import { ContactList } from 'components/ContactsList';
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { setFilter } from 'redux/actions';
+import { setFilter } from '../../redux/actions';
+
 
 export const Filter = () => {
   const dispatch = useDispatch();
